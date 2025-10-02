@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
     width: 300px;
     background-color: #fff;
@@ -5,6 +10,7 @@
     border-radius: 6px;
     padding: 12px;
     font-family: Arial, sans-serif;
+    text-align: right;
 }
 .card-star {
     background-color: #ffcc00;
@@ -19,6 +25,7 @@
     width: 100%;
     border-radius: 4px;
     margin-bottom: 8px;
+    text-align: right;
 }
 .card-description {
     font-weight: bold;
